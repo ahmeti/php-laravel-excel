@@ -675,7 +675,7 @@ class LaravelExcelReader
      * @param callable      $callback
      * @param bool|string   $shouldQueue
      */
-    public function chunk($size = 10, callable $callback, $shouldQueue = true)
+    public function chunk($size, callable $callback, $shouldQueue = true)
     {
         // Get total rows
         $totalRows = $this->getTotalRowsOfFile();
