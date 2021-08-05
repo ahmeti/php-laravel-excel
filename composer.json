@@ -19,7 +19,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "ahmeti/php-excel": "^1.8.5",
+    "ahmeti/php-excel": "^1.8.6",
     "jeremeamia/superclosure": "^2.3",
     "tijsverkoyen/css-to-inline-styles": "~2.0"
   },
