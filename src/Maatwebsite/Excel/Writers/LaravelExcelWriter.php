@@ -627,7 +627,7 @@ class LaravelExcelWriter {
      * @param $headers
      * @throws LaravelExcelException
      */
-    protected function _setHeaders(Array $headers = [], Array $default)
+    protected function _setHeaders(Array $headers = [], Array $default = [])
     {
         if (headers_sent()) throw new LaravelExcelException('[ERROR]: Headers already sent');
 
